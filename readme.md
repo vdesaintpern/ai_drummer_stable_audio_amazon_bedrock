@@ -1,4 +1,4 @@
-# AI Drummer from an guitar track
+# AI Drummer from a guitar track
 
 AI-powered drum track generator that complements music performances. It analyzes audio input and generates appropriate drum tracks using machine learning models.
 
