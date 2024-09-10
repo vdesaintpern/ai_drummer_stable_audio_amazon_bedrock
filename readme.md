@@ -1,14 +1,14 @@
-# Livegroove
+# AI Drummer from an guitar track
 
-Livegroove is an AI-powered drum track generator that complements music performances. It analyzes audio input and generates appropriate drum tracks using machine learning models.
+AI-powered drum track generator that complements music performances. It analyzes audio input and generates appropriate drum tracks using machine learning models.
 
 It uses Claude 3.5 Sonnet for prompt generation and Stable Audio for audio generation.
 
 ## Features
 
 - Analyzes input audio to extract musical characteristics
-- Generates contextually appropriate drum prompts using Claude AI
-- Creates drum tracks using the Stable Audio model
+- Generates contextually appropriate drum prompts using Claude on Amazon Bedrock
+- Creates drum "parts" using the Stable Audio model then stitches everything together
 - Supports custom tempo and bar settings
 
 ## Process
