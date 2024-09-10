@@ -1,7 +1,7 @@
 # Generates drums based on audio file
 # Constraints:
 # music should start at index 0, no lead time or silence before starting
-# default tempo is 80BPM, 4/4
+# default tempo is 120BPM, 4/4
 # Each chunk of drum is generated for 4 bars (default) so don't expect major changes in this timeframe
 
 import argparse
