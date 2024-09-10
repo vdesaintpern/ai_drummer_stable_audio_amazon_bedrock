@@ -1,0 +1,7 @@
+output.wav
+.venv
+onnxruntime*
+.DS_Store
+temp.txt
+__pycache__
+.vs_code
