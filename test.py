@@ -1,5 +1,6 @@
 import sqlite3
 from passlib.hash import pbkdf2_sha256
+import pymysql
 
 def db_init():
 
@@ -21,5 +22,12 @@ def db_init():
     conn.close()
 
 
+def run(name):
+    db = pymysql.connect("localhost","root","root","mydb" )
+    cur = db.cursor()
+    cur.execute("SELECT * FROM USER WHERE NAME = '%s'" % name)
+    db.close()
+
 if __name__ == '__main__':
     db_init()
+    run('admin')
